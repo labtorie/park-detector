@@ -60,7 +60,7 @@ function createDotPool (polygon, callback=()=>{}) {
 
     const d_x = x_max - x_min
     const d_y = y_max - y_min
-    const resX = 40
+    const resX = 25
     const resY = Math.round(resX * (d_x / d_y))
     const points = []
 
